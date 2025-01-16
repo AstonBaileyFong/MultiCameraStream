@@ -2,7 +2,7 @@
 MVVM Structure
 1. Model
 * CameraModel Abstract Class
-*   Specifies what attributes a camera object can have
+**   Specifies what attributes a camera object can have
 * GoProModel Class
 *   Child class of the CameraModel abstract class
 *   Specifies any specific attributes that GoPro cameras possess from the perspective of the program.
