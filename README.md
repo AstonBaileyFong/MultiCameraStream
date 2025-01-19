@@ -1,6 +1,7 @@
 # MultiCameraStream
 MVVM Structure
 1. Model
+
 The Model of this program is the cameras the program will be interacting with. For this, we must define what a camera is by defining it's attributes.
 * CameraModel Abstract Class
   * Specifies what attributes a camera object can have
@@ -10,6 +11,7 @@ The Model of this program is the cameras the program will be interacting with. F
 
 
 2. View
+
 The View of this program is the user interface, which dictates how the user can interact with the program.
 * MainActivity
   * Display options for connecting one or more cameras
@@ -18,6 +20,7 @@ The View of this program is the user interface, which dictates how the user can 
 
 
 3. ViewModel
+
 The ViewModel of this program is the means by which the program itself communicates with the cameras. This involves outlining the methods of communication (i.e. bluetooth/wi-fi) to the cameras, and establishing protocols for connection and communication.
 * GoProBlueToothViewModel
   * Child class of the GoProModel class
